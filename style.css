@@ -1,0 +1,142 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-color: #fda6c3;
+}
+
+header {
+    text-align: center;
+    padding: 100px;
+    background-color: rgb(212, 88, 109); 
+    color: white;
+    font-size: 24px;
+}
+
+ 
+.wrapper .s1{
+    border-radius: 50%;
+    filter: drop-shadow(0 0 0.5rem black);
+    border: 7px solid black;
+}
+ 
+.wrapper h1{
+    filter: drop-shadow(0 0 0.5rem black);
+    text-align: none;
+}
+
+.images h2{
+    text-align: none;
+    font-size: 30px;
+}
+
+.images p{
+    text-align: none;
+}
+
+.images li{
+    text-align: none;
+}
+
+.images .big-image{
+    width: 70%;
+    height: 500px;
+    border-radius: 2%;
+    
+}
+
+nav {
+    background-color: #FF80AB;
+    text-align: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.featured {
+    text-align: none;
+    margin: 20px 0;
+}
+
+.featured h2 {
+    color: #FF80AB;
+    font-size: 24px;
+    text-align: none;
+}
+
+.featured img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.character-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.character-card .card {
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.image .big-image{
+    border-radius: 50%;
+}
+
+.character-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:  rgb(212, 88, 109);
+    color: white;
+    font-size: 14px;
+}
+
