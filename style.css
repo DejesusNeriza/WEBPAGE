@@ -131,5 +131,14 @@ nav a:hover {
     max-width: 100%;
     border-radius: 10px;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 90%;
+    padding-top: 10px;
+    background-color: ;
+    color: white;
+    font-size: 14px;
+}
 
 
